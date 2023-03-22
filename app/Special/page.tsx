@@ -2,7 +2,7 @@
 
 import { Text } from '@chakra-ui/react'
 
-export default function Q1() {
+export default function Special() {
     return (
         <Text>
             Checking Page

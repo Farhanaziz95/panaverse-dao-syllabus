@@ -287,21 +287,21 @@ const NAV_ITEMS: Array<NavItem> = [
       {
         label: 'Object-Oriented Programming using TypeScript',
         subLabel: 'learning the fundamentals of Object-Oriented programming using JavaScript and TypeScript.',
-        href: '#',
+        href: '/CoreCourse/Q1',
         spLabel:"Quarter I"
 
       },
       {
         label: ' Next.js 13 and Cloud Development Kit',
         subLabel: 'The technologies covered in this course will be Next.js 13, Tailwind CSS, Chakra UI, tRPC, QraphQL, Prisma e.t.c',
-        href: '#',
+        href: '/CoreCourse/Q2',
         spLabel:"Quarter II"
 
       },
       {
         label: 'Full-Stack Template and API Product',
         subLabel: 'Earn While You Learn Projects',
-        href: '#',
+        href: '/CoreCourse/Q3',
         spLabel:"Quarter III"
 
       },
@@ -312,67 +312,67 @@ const NAV_ITEMS: Array<NavItem> = [
     children: [
       {
         label: 'Smart Contracts and Web 3.0 Dapps',
-        href: '#',
+        href: '/Special/Web3/Q4',
         spLabel:"Quarter IV: Web 3 and Metaverse"
       },
       {
         label: 'Open Virtual and Augmented Metaverse',
-        href: '#',
+        href: '/Special/Web3/Q5',
         spLabel:"Quarter V: Web 3 and Metaverse"
 
       },
       {
         label: 'Intelligent APIs and Python Programming',
-        href: '#',
+        href: '/Special/AI/Q4',
         spLabel:"Quarter IV: Artificial Intelligence (AI) and Deep Learning"
       },
       {
         label: 'Deep Learning and MLOps',
-        href: '#',
+        href: '/Special/AI/Q5',
         spLabel:"Quarter V: Artificial Intelligence (AI) and Deep Learning"
 
       },
       {
         label: 'Kubernetes Application Developer',
-        href: '#',
+        href: '/Special/Cloud/Q4',
         spLabel:"Quarter IV: Cloud-Native Computing"
       },
       {
         label: 'Multi-Cloud APIs using CDK',
-        href: '#',
+        href: '/Special/Cloud/Q5',
         spLabel:"Quarter V: Cloud-Native Computing"
 
       },
       {
         label: 'Ambient Computing with VA & MPD',
-        href: '#',
+        href: '/Special/IOT/Q4',
         spLabel:"Quarter IV: Ambient Computing and IoT"
       },
       {
         label: 'Embedded using C and Rust',
-        href: '#',
+        href: '/Special/IOT/Q5',
         spLabel:"Quarter V: Ambient Computing and IoT"
 
       },
       {
         label: 'Python for Biologists',
-        href: '#',
+        href: '/Special/Genomics/Q4',
         spLabel:"Quarter IV: Genomics and Bioinformatics"
       },
       {
         label: 'Bioinformatics with Python',
-        href: '#',
+        href: '/Special/Genomics/Q5',
         spLabel:"Quarter V: Genomics and Bioinformatics"
 
       },
       {
         label: 'CCNA 200-301 Certification',
-        href: '#',
+        href: '/Special/Network/Q4',
         spLabel:"Quarter IV: Network Programmability and Automation"
       },
       {
         label: 'Network Programmability and Automation',
-        href: '#',
+        href: '/Special/Network/Q5',
         spLabel:"Quarter V: Network Programmability and Automation"
 
       },
