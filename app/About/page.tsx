@@ -1,17 +1,19 @@
-import Header  from '../components/nav'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
+'use client'
+
+import FactStatistics  from '../components/factstudent'
+import Header from '../components/nav'
 import TestimonialStudent from '../components/testimonialstudent'
-import TopFooter  from '../components/footer'
+import TopAbout from '../components/detailsleftabout'
+import TopFooter from '../components/footer'
 
-const inter = Inter({ subsets: ['latin'] })
-
-export default function Home() {
-  return (
-    <>
-    <Header />
-    <TestimonialStudent/>
-    <TopFooter />
-    </>
-  )
+export default function About() {
+    return (
+        <>
+            <Header />
+            <TopAbout/>
+            <FactStatistics/>
+            <TestimonialStudent />
+            <TopFooter />
+        </>
+    )
 }

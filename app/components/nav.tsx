@@ -91,7 +91,7 @@ export default function Header(props: ButtonProps) {
             fontWeight={600}
             color={'white'}
             bg={'pink.400'}
-            href={'#'}
+            href={'https://portal.piaic.org/signup'}
             _hover={{
               bg: 'pink.300',
             }}>
@@ -381,6 +381,6 @@ const NAV_ITEMS: Array<NavItem> = [
   
   {
     label: 'Articals',
-    href: '#',
+    href: '/Articals',
   },
 ];
