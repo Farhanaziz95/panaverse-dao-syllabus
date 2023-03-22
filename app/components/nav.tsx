@@ -311,69 +311,69 @@ const NAV_ITEMS: Array<NavItem> = [
     label: 'Specialization',
     children: [
       {
-        label: 'Job Board',
+        label: 'Smart Contracts and Web 3.0 Dapps',
         href: '#',
         spLabel:"Quarter IV: Web 3 and Metaverse"
       },
       {
-        label: 'Freelance Projects',
+        label: 'Open Virtual and Augmented Metaverse',
         href: '#',
-        spLabel:"Quarter IV: Web 3 and Metaverse"
+        spLabel:"Quarter V: Web 3 and Metaverse"
 
       },
       {
-        label: 'Job Board',
+        label: 'Intelligent APIs and Python Programming',
+        href: '#',
+        spLabel:"Quarter IV: Artificial Intelligence (AI) and Deep Learning"
+      },
+      {
+        label: 'Deep Learning and MLOps',
+        href: '#',
+        spLabel:"Quarter V: Artificial Intelligence (AI) and Deep Learning"
+
+      },
+      {
+        label: 'Kubernetes Application Developer',
         href: '#',
         spLabel:"Quarter IV: Cloud-Native Computing"
       },
       {
-        label: 'Freelance Projects',
+        label: 'Multi-Cloud APIs using CDK',
         href: '#',
-        spLabel:"Quarter IV: Cloud-Native Computing"
+        spLabel:"Quarter V: Cloud-Native Computing"
 
       },
       {
-        label: 'Job Board',
+        label: 'Ambient Computing with VA & MPD',
         href: '#',
-        spLabel:"Quarter IV: Web 3 and Metaverse"
+        spLabel:"Quarter IV: Ambient Computing and IoT"
       },
       {
-        label: 'Freelance Projects',
+        label: 'Embedded using C and Rust',
         href: '#',
-        spLabel:"Quarter IV: Web 3 and Metaverse"
+        spLabel:"Quarter V: Ambient Computing and IoT"
 
       },
       {
-        label: 'Job Board',
+        label: 'Python for Biologists',
         href: '#',
-        spLabel:"Quarter IV: Web 3 and Metaverse"
+        spLabel:"Quarter IV: Genomics and Bioinformatics"
       },
       {
-        label: 'Freelance Projects',
+        label: 'Bioinformatics with Python',
         href: '#',
-        spLabel:"Quarter IV: Web 3 and Metaverse"
+        spLabel:"Quarter V: Genomics and Bioinformatics"
 
       },
       {
-        label: 'Job Board',
+        label: 'CCNA 200-301 Certification',
         href: '#',
-        spLabel:"Quarter IV: Web 3 and Metaverse"
+        spLabel:"Quarter IV: Network Programmability and Automation"
       },
       {
-        label: 'Freelance Projects',
+        label: 'Network Programmability and Automation',
         href: '#',
-        spLabel:"Quarter IV: Web 3 and Metaverse"
-
-      },
-      {
-        label: 'Job Board',
-        href: '#',
-        spLabel:"Quarter IV: Web 3 and Metaverse"
-      },
-      {
-        label: 'Freelance Projects',
-        href: '#',
-        spLabel:"Quarter IV: Web 3 and Metaverse"
+        spLabel:"Quarter V: Network Programmability and Automation"
 
       },
     ],
