@@ -14,7 +14,7 @@ import {
     chakra,
     useColorModeValue,
 } from '@chakra-ui/react';
-import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
+import { FaFacebookF, FaGithub, FaInstagram, FaLink, FaTwitter, FaYoutube } from 'react-icons/fa';
 
 import { BiMailSend } from 'react-icons/bi';
 import { ReactNode } from 'react';
@@ -176,15 +176,28 @@ export default function TopFooter() {
                 align={{ base: 'center', md: 'center' }}>
                 <Text color={useColorModeValue('gray.900', 'gray.50')}>© 2023 Nth-x-Solutions. All rights reserved</Text>
                 <Stack direction={'row'} spacing={6}>
-                    <SocialButton label={'Twitter'} href={'#'}>
+                <SocialButton label={'Admission'} href={'https://www.piaic.org/'}>
+                        <FaLink />
+                    </SocialButton>
+                    <SocialButton label={'Syllabus and Community'} href={'https://www.panaverse.co/'}>
+                        <FaLink />
+                    </SocialButton>
+                    <SocialButton label={'Twitter'} href={'https://twitter.com/Panaverse_edu'}>
                         <FaTwitter />
                     </SocialButton>
-                    <SocialButton label={'YouTube'} href={'#'}>
+                    <SocialButton label={'YouTube'} href={'https://www.youtube.com/@panaverse/streams'}>
                         <FaYoutube />
                     </SocialButton>
-                    <SocialButton label={'Instagram'} href={'#'}>
+                    {/* <SocialButton label={'Instagram'} href={'#'}>
                         <FaInstagram />
+                    </SocialButton> */}
+                    <SocialButton label={'Facebook'} href={'https://www.facebook.com/groups/panaverse'}>
+                        <FaFacebookF />
                     </SocialButton>
+                    <SocialButton label={'GitHub'} href={'https://github.com/panaverse'}>
+                        <FaGithub />
+                    </SocialButton>
+                    
                 </Stack>
             </Container>
         </Box>
