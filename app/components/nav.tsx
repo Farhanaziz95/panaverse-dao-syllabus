@@ -34,7 +34,7 @@ export default function Header(props: ButtonProps) {
   const { colorMode, toggleColorMode } = useColorMode();
 
   return (
-    <Box>
+    <Box >
       <Flex
         bg={useColorModeValue('white', 'gray.800')}
         color={useColorModeValue('gray.600', 'white')}
@@ -44,7 +44,10 @@ export default function Header(props: ButtonProps) {
         borderBottom={1}
         borderStyle={'solid'}
         borderColor={useColorModeValue('gray.200', 'gray.900')}
-        align={'center'}>
+        align={'center'}
+        position={{base:"initial",lg:"fixed",md:"fixed"}}
+        w="100%"
+        zIndex="100">
         <Flex
           flex={{ base: 1, md: 'auto' }}
           ml={{ base: -2 }}
@@ -77,23 +80,9 @@ export default function Header(props: ButtonProps) {
           justify={'flex-end'}
           direction={'row'}
           spacing={6}>
-          <Button
-            aria-label="Toggle Color Mode"
-            onClick={toggleColorMode}
-            _focus={{ boxShadow: 'none' }}
-            w="fit-content"
-            {...props}>
-            {colorMode === 'light' ? <BsMoonStarsFill /> : <BsSun />}
-          </Button>
+          
 
-          <Button
-            as={'a'}
-            fontSize={'sm'}
-            fontWeight={400}
-            variant={'link'}
-            href={'#'}>
-            Sign In
-          </Button>
+          
           <Button
             as={'a'}
             display={{ base: 'none', md: 'inline-flex' }}
@@ -105,7 +94,15 @@ export default function Header(props: ButtonProps) {
             _hover={{
               bg: 'pink.300',
             }}>
-            Sign Up
+            Get Started
+          </Button>
+          <Button
+            aria-label="Toggle Color Mode"
+            onClick={toggleColorMode}
+            _focus={{ boxShadow: 'none' }}
+            w="fit-content"
+            {...props}>
+            {colorMode === 'light' ? <BsMoonStarsFill /> : <BsSun />}
           </Button>
         </Stack>
       </Flex>
@@ -270,7 +267,15 @@ interface NavItem {
 
 const NAV_ITEMS: Array<NavItem> = [
   {
-    label: 'Inspiration',
+    label: 'Home',
+    href: '/',
+  },
+  {
+    label: 'About',
+    href: '/About',
+  },
+  {
+    label: 'First Quarter',
     children: [
       {
         label: 'Explore Design Work',
@@ -285,7 +290,7 @@ const NAV_ITEMS: Array<NavItem> = [
     ],
   },
   {
-    label: 'Find Work',
+    label: 'Second  Quarter',
     children: [
       {
         label: 'Job Board',
@@ -299,10 +304,7 @@ const NAV_ITEMS: Array<NavItem> = [
       },
     ],
   },
-  {
-    label: 'Learn Design',
-    href: '#',
-  },
+  
   {
     label: 'Hire Designers',
     href: '#',
