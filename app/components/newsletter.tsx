@@ -32,7 +32,7 @@ export default function Simple() {
         boxShadow={'xl'}
         rounded={'lg'}
         p={6}
-        direction={'column'}>
+        >
         <Heading
           as={'h2'}
           fontSize={{ base: 'xl', sm: '2xl' }}

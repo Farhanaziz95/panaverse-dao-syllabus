@@ -1,7 +1,8 @@
+/* eslint-disable react/no-unescaped-entities */
 import { Box, Flex, Icon, Stack, chakra } from '@chakra-ui/react'
 
 export default function topabout() {
-  const Feature = (props) => {
+  const Feature = (props:any) => {
     return (
       <Flex>
         <Flex shrink={0}>

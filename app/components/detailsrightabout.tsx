@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 'use client'
 
 import {
@@ -56,6 +57,7 @@ export default function DetailsRightAbout() {
             objectFit="cover"
             src={`https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&auto=format&fit=crop&w=334&q=80`}
             rounded="md"
+            alt="background pic"
             fallback={<Skeleton />}
           />
         </Box>
