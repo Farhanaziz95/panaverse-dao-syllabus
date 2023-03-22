@@ -5,6 +5,7 @@ import {
   Button,
   ButtonProps,
   Collapse,
+  Divider,
   Flex,
   Icon,
   IconButton,
@@ -144,7 +145,7 @@ const DesktopNav = () => {
                 border={0}
                 boxShadow={'xl'}
                 bg={popoverContentBgColor}
-                p={4}
+                px={4}
                 rounded={'xl'}
                 minW={'sm'}>
                 <Stack>
@@ -161,24 +162,29 @@ const DesktopNav = () => {
   );
 };
 
-const DesktopSubNav = ({ label, href, subLabel }: NavItem) => {
+const DesktopSubNav = ({ label, href, subLabel,spLabel }: NavItem) => {
   return (
     <Link
       href={href}
       role={'group'}
       display={'block'}
-      p={2}
+      // p={1}
       rounded={'md'}
       _hover={{ bg: useColorModeValue('pink.50', 'gray.900') }}>
+        <Text fontSize={'xs'}>{spLabel}</Text>
+        <Divider orientation='horizontal' />
       <Stack direction={'row'} align={'center'}>
         <Box>
+        
           <Text
             transition={'all .3s ease'}
             _groupHover={{ color: 'pink.400' }}
-            fontWeight={500}>
+            fontWeight={500}
+            fontSize={'xs'}>
+              
             {label}
           </Text>
-          <Text fontSize={'sm'}>{subLabel}</Text>
+          <Text fontSize={'xs'}>{subLabel}</Text>
         </Box>
         <Flex
           transition={'all .3s ease'}
@@ -262,6 +268,7 @@ interface NavItem {
   label: string;
   subLabel?: string;
   children?: Array<NavItem>;
+  spLabel?:string;
   href?: string;
 }
 
@@ -275,38 +282,105 @@ const NAV_ITEMS: Array<NavItem> = [
     href: '/About',
   },
   {
-    label: 'First Quarter',
+    label: 'Subjects',
     children: [
       {
-        label: 'Explore Design Work',
-        subLabel: 'Trending Design to inspire you',
+        label: 'Object-Oriented Programming using TypeScript',
+        subLabel: 'learning the fundamentals of Object-Oriented programming using JavaScript and TypeScript.',
         href: '#',
+        spLabel:"Quarter I"
+
       },
       {
-        label: 'New & Noteworthy',
-        subLabel: 'Up-and-coming Designers',
+        label: ' Next.js 13 and Cloud Development Kit',
+        subLabel: 'The technologies covered in this course will be Next.js 13, Tailwind CSS, Chakra UI, tRPC, QraphQL, Prisma e.t.c',
         href: '#',
+        spLabel:"Quarter II"
+
+      },
+      {
+        label: 'Full-Stack Template and API Product',
+        subLabel: 'Earn While You Learn Projects',
+        href: '#',
+        spLabel:"Quarter III"
+
       },
     ],
   },
   {
-    label: 'Second  Quarter',
+    label: 'Specialization',
     children: [
       {
         label: 'Job Board',
-        subLabel: 'Find your dream design job',
         href: '#',
+        spLabel:"Quarter IV: Web 3 and Metaverse"
       },
       {
         label: 'Freelance Projects',
-        subLabel: 'An exclusive list for contract work',
         href: '#',
+        spLabel:"Quarter IV: Web 3 and Metaverse"
+
+      },
+      {
+        label: 'Job Board',
+        href: '#',
+        spLabel:"Quarter IV: Cloud-Native Computing"
+      },
+      {
+        label: 'Freelance Projects',
+        href: '#',
+        spLabel:"Quarter IV: Cloud-Native Computing"
+
+      },
+      {
+        label: 'Job Board',
+        href: '#',
+        spLabel:"Quarter IV: Web 3 and Metaverse"
+      },
+      {
+        label: 'Freelance Projects',
+        href: '#',
+        spLabel:"Quarter IV: Web 3 and Metaverse"
+
+      },
+      {
+        label: 'Job Board',
+        href: '#',
+        spLabel:"Quarter IV: Web 3 and Metaverse"
+      },
+      {
+        label: 'Freelance Projects',
+        href: '#',
+        spLabel:"Quarter IV: Web 3 and Metaverse"
+
+      },
+      {
+        label: 'Job Board',
+        href: '#',
+        spLabel:"Quarter IV: Web 3 and Metaverse"
+      },
+      {
+        label: 'Freelance Projects',
+        href: '#',
+        spLabel:"Quarter IV: Web 3 and Metaverse"
+
+      },
+      {
+        label: 'Job Board',
+        href: '#',
+        spLabel:"Quarter IV: Web 3 and Metaverse"
+      },
+      {
+        label: 'Freelance Projects',
+        href: '#',
+        spLabel:"Quarter IV: Web 3 and Metaverse"
+
       },
     ],
   },
   
   {
-    label: 'Hire Designers',
+    label: 'Articals',
     href: '#',
   },
 ];

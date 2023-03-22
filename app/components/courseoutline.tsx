@@ -21,22 +21,21 @@ export default function CourseOutline() {
         <Container py={5} maxW={'container.lg'}>
             <Stack spacing={4} as={Container} maxW={'3xl'} textAlign={'center'}>
                 <Heading fontSize={{ base: '2xl', sm: '4xl' }} fontWeight={'bold'}>
-                    Short heading
+                    Core Courses (Common in All Specializations):
+
                 </Heading>
                 <Text color={'gray.600'} fontSize={{ base: 'sm', sm: 'lg' }}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-                    obcaecati ut cupiditate pariatur, dignissimos, placeat amet officiis.
+                Every participant of the program will start by completing the following three core courses:
                 </Text>
             </Stack>
             <CourseCore />
             <Stack py="4" spacing={4} as={Container} maxW={'3xl'} textAlign={'center'}>
                 <Heading fontSize={{ base: '2xl', sm: '4xl' }} fontWeight={'bold'}>
-                    Short heading
+                Specialized Tracks:
                 </Heading>
 
                 <Text color={'gray.600'} fontSize={{ base: 'sm', sm: 'lg' }}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-                    obcaecati ut cupiditate pariatur, dignissimos, placeat amet officiis.
+                After completing the first three quarters the participants will select one or more specializations consisting of two courses each:
                 </Text>
 
             </Stack>
@@ -46,21 +45,21 @@ export default function CourseOutline() {
                     sm: 'repeat(2, 1fr)',
                     md: 'repeat(4, 1fr)',
                 }}
-                gap={6}>
+                gap={6}
+                pb="6">
                 <GridItem w="100%" colSpan={{ base: 1, sm: 2, md: 2 }}>
-                    <Heading  as={'h2'}>Medium Length Title</Heading>
+                    <Heading as={'h2'}>Web 3.0 (Blockchain) and Metaverse</Heading>
                     <Text color={'gray.600'} fontSize={{ base: 'sm', sm: 'lg' }}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-                    obcaecati ut cupiditate pariatur, dignissimos, placeat amet officiis.
-                </Text>
+                    This Web 3.0 and Metaverse specialization focuses on developing full-stack Web 3.0 and Metaverse experiences for the next generation of the internet by specializing in building worlds that merge the best of cutting-edge decentralized distributed blockchains with 3D metaverse client experiences
+                    </Text>
                 </GridItem>
                 <GridItem w="100%">
                     <Flex flexDirection={'column'}>
                         <Card
-                            heading={'Heading'}
+                            heading={'Quarter IV'}
                             icon={<Icon as={FcAssistant} w={10} h={10} />}
                             description={
-                                'Lorem ipsum dolor sit amet catetur, adipisicing elit.'
+                                'Smart Contracts and Planet-Scale Web 3.0 Dapps.'
                             }
                             href={'#'}
                         />
@@ -69,10 +68,10 @@ export default function CourseOutline() {
                 <GridItem w="100%">
                     <Flex flexDirection={'column'}>
                         <Card
-                            heading={'Heading'}
+                            heading={'Quarter V'}
                             icon={<Icon as={FcAssistant} w={10} h={10} />}
                             description={
-                                'Lorem ipsum dolor sit amet catetur, adipisicing elit.'
+                                'Planet-Scale Open VR & AR Metaverse Experiences.'
                             }
                             href={'#'}
                         />
@@ -85,30 +84,36 @@ export default function CourseOutline() {
                     sm: 'repeat(2, 1fr)',
                     md: 'repeat(4, 1fr)',
                 }}
-                gap={6}>
+                gap={6}
+                pb="6">
                 <GridItem w="100%" colSpan={{ base: 1, sm: 2, md: 2 }}>
-                    <Heading as={'h2'}>Medium Length Title</Heading>
+                    <Heading as={'h2'}>Artificial Intelligence (AI) and Deep Learning</Heading>
+                    <Text color={'gray.600'} fontSize={{ base: 'sm', sm: 'lg' }}>
+                    The AI and Deep Learning specialization focuses on building and deploying intelligent APIs using OpenAI models and building custom Deep Learning Tensorflow models.
+                    </Text>
                 </GridItem>
                 <GridItem w="100%">
                     <Flex flexDirection={'column'}>
-                        <Text fontSize={'4xl'} fontWeight={'bold'}>
-                            20%
-                        </Text>
-                        <Box fontSize={'sm'}>
-                            Description for the number. People always pay attention to
-                            numbers.
-                        </Box>
+                        <Card
+                            heading={'Quarter IV'}
+                            icon={<Icon as={FcAssistant} w={10} h={10} />}
+                            description={
+                                'Planet-Scale Intelligent APIs and Python Programming.'
+                            }
+                            href={'#'}
+                        />
                     </Flex>
                 </GridItem>
                 <GridItem w="100%">
                     <Flex flexDirection={'column'}>
-                        <Text fontSize={'4xl'} fontWeight={'bold'}>
-                            20%
-                        </Text>
-                        <Box fontSize={'sm'}>
-                            Description for the number. People always pay attention to
-                            numbers.
-                        </Box>
+                        <Card
+                            heading={'Quarter V'}
+                            icon={<Icon as={FcAssistant} w={10} h={10} />}
+                            description={
+                                'Deep Learning and MLOps.'
+                            }
+                            href={'#'}
+                        />
                     </Flex>
                 </GridItem>
             </Grid>
@@ -118,30 +123,36 @@ export default function CourseOutline() {
                     sm: 'repeat(2, 1fr)',
                     md: 'repeat(4, 1fr)',
                 }}
-                gap={6}>
+                gap={6}
+                pb="6">
                 <GridItem w="100%" colSpan={{ base: 1, sm: 2, md: 2 }}>
-                    <Heading as={'h2'}>Medium Length Title</Heading>
+                    <Heading as={'h2'}>Cloud-Native Computing</Heading>
+                    <Text color={'gray.600'} fontSize={{ base: 'sm', sm: 'lg' }}>
+                    The Cloud-Native Computing Specialization focuses on Containers, Kubernetes, and CDK for Kubernetes.
+                    </Text>
                 </GridItem>
                 <GridItem w="100%">
                     <Flex flexDirection={'column'}>
-                        <Text fontSize={'4xl'} fontWeight={'bold'}>
-                            20%
-                        </Text>
-                        <Box fontSize={'sm'}>
-                            Description for the number. People always pay attention to
-                            numbers.
-                        </Box>
+                        <Card
+                            heading={'Quarter IV'}
+                            icon={<Icon as={FcAssistant} w={10} h={10} />}
+                            description={
+                                'Kubernetes Application Developer (CKAD).'
+                            }
+                            href={'#'}
+                        />
                     </Flex>
                 </GridItem>
                 <GridItem w="100%">
                     <Flex flexDirection={'column'}>
-                        <Text fontSize={'4xl'} fontWeight={'bold'}>
-                            20%
-                        </Text>
-                        <Box fontSize={'sm'}>
-                            Description for the number. People always pay attention to
-                            numbers.
-                        </Box>
+                        <Card
+                            heading={'Quarter V'}
+                            icon={<Icon as={FcAssistant} w={10} h={10} />}
+                            description={
+                                'Multi-Cloud APIs using CDK for Terraform.'
+                            }
+                            href={'#'}
+                        />
                     </Flex>
                 </GridItem>
             </Grid>
@@ -151,30 +162,36 @@ export default function CourseOutline() {
                     sm: 'repeat(2, 1fr)',
                     md: 'repeat(4, 1fr)',
                 }}
-                gap={6}>
+                gap={6}
+                pb="6">
                 <GridItem w="100%" colSpan={{ base: 1, sm: 2, md: 2 }}>
-                    <Heading as={'h2'}>Medium Length Title</Heading>
+                    <Heading as={'h2'}>Ambient Computing and IoT</Heading>
+                    <Text color={'gray.600'} fontSize={{ base: 'sm', sm: 'lg' }}>
+                    The Ambient Computing and IoT Specialization focuses on building Smart Homes, Offices, Factories, and Cities using Voice computing, Matter Protocol, and Embedded Devices. 
+                    </Text>
                 </GridItem>
                 <GridItem w="100%">
                     <Flex flexDirection={'column'}>
-                        <Text fontSize={'4xl'} fontWeight={'bold'}>
-                            20%
-                        </Text>
-                        <Box fontSize={'sm'}>
-                            Description for the number. People always pay attention to
-                            numbers.
-                        </Box>
+                        <Card
+                            heading={'Quarter IV'}
+                            icon={<Icon as={FcAssistant} w={10} h={10} />}
+                            description={
+                                'Ambient Computing with VA & MPD.'
+                            }
+                            href={'#'}
+                        />
                     </Flex>
                 </GridItem>
                 <GridItem w="100%">
                     <Flex flexDirection={'column'}>
-                        <Text fontSize={'4xl'} fontWeight={'bold'}>
-                            20%
-                        </Text>
-                        <Box fontSize={'sm'}>
-                            Description for the number. People always pay attention to
-                            numbers.
-                        </Box>
+                        <Card
+                            heading={'Quarter V'}
+                            icon={<Icon as={FcAssistant} w={10} h={10} />}
+                            description={
+                                'Embedded Programming using C and Rust.'
+                            }
+                            href={'#'}
+                        />
                     </Flex>
                 </GridItem>
             </Grid>
@@ -184,30 +201,75 @@ export default function CourseOutline() {
                     sm: 'repeat(2, 1fr)',
                     md: 'repeat(4, 1fr)',
                 }}
-                gap={6}>
+                gap={6}
+                pb="6">
                 <GridItem w="100%" colSpan={{ base: 1, sm: 2, md: 2 }}>
-                    <Heading as={'h2'}>Medium Length Title</Heading>
+                    <Heading as={'h2'}>Genomics and Bioinformatics</Heading>
+                    <Text color={'gray.600'} fontSize={{ base: 'sm', sm: 'lg' }}>
+                    Genomics is the study of the total genetic makeup of individual organisms, and how this genetic information is structured, functions, and has evolved; bioinformatics encompasses a diverse range of analytical methods and tools applied to genomic data.
+                    </Text>
                 </GridItem>
                 <GridItem w="100%">
                     <Flex flexDirection={'column'}>
-                        <Text fontSize={'4xl'} fontWeight={'bold'}>
-                            20%
-                        </Text>
-                        <Box fontSize={'sm'}>
-                            Description for the number. People always pay attention to
-                            numbers.
-                        </Box>
+                        <Card
+                            heading={'Quarter IV'}
+                            icon={<Icon as={FcAssistant} w={10} h={10} />}
+                            description={
+                                'Python for Biologists.'
+                            }
+                            href={'#'}
+                        />
                     </Flex>
                 </GridItem>
                 <GridItem w="100%">
                     <Flex flexDirection={'column'}>
-                        <Text fontSize={'4xl'} fontWeight={'bold'}>
-                            20%
-                        </Text>
-                        <Box fontSize={'sm'}>
-                            Description for the number. People always pay attention to
-                            numbers.
-                        </Box>
+                        <Card
+                            heading={'Quarter V'}
+                            icon={<Icon as={FcAssistant} w={10} h={10} />}
+                            description={
+                                'Python for Biologists.'
+                            }
+                            href={'#'}
+                        />
+                    </Flex>
+                </GridItem>
+            </Grid>
+            <Grid
+                templateColumns={{
+                    base: 'repeat(1, 1fr)',
+                    sm: 'repeat(2, 1fr)',
+                    md: 'repeat(4, 1fr)',
+                }}
+                gap={6}
+                pb="6">
+                <GridItem w="100%" colSpan={{ base: 1, sm: 2, md: 2 }}>
+                    <Heading as={'h2'}>Network Programmability and Automation</Heading>
+                    <Text color={'gray.600'} fontSize={{ base: 'sm', sm: 'lg' }}>
+                    Network automation is now crucial due to new protocols, technologies, delivery models, and the requirement for enterprises to become more adaptable and agile. This course teaches network engineers how to automate systems with code using a variety of technologies and tools, including Linux, Python, APIs, and Git.
+                    </Text>
+                </GridItem>
+                <GridItem w="100%">
+                    <Flex flexDirection={'column'}>
+                        <Card
+                            heading={'Quarter IV'}
+                            icon={<Icon as={FcAssistant} w={10} h={10} />}
+                            description={
+                                'CCNA 200-301 Certification.'
+                            }
+                            href={'#'}
+                        />
+                    </Flex>
+                </GridItem>
+                <GridItem w="100%">
+                    <Flex flexDirection={'column'}>
+                        <Card
+                            heading={'Quarter V'}
+                            icon={<Icon as={FcAssistant} w={10} h={10} />}
+                            description={
+                                'Network Programmability and Automation.'
+                            }
+                            href={'#'}
+                        />
                     </Flex>
                 </GridItem>
             </Grid>

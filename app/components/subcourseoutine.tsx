@@ -52,26 +52,26 @@ export default function CourseCore() {
         <Box p={4}>
             <SimpleGrid columns={{ base: 1, md: 3 }} spacing={10}>
                 <Card
-                    heading={'Heading'}
+                    heading={'Quarter I '}
                     icon={<Icon as={FcAssistant} w={10} h={10} />}
                     description={
-                        'Lorem ipsum dolor sit amet catetur, adipisicing elit.'
+                        'Object-Oriented Programming using TypeScript.'
                     }
                     href={'#'}
                 />
                 <Card
-                    heading={'Heading'}
+                    heading={'Quarter II'}
                     icon={<Icon as={FcAssistant} w={10} h={10} />}
                     description={
-                        'Lorem ipsum dolor sit amet catetur, adipisicing elit.'
+                        'Next.js 13 and Cloud Development Kit (CDK).'
                     }
                     href={'#'}
                 />
                 <Card
-                    heading={'Heading'}
+                    heading={'Quarter III'}
                     icon={<Icon as={FcAssistant} w={10} h={10} />}
                     description={
-                        'Lorem ipsum dolor sit amet catetur, adipisicing elit.'
+                        'Full-Stack Template and API Product Development.'
                     }
                     href={'#'}
                 />

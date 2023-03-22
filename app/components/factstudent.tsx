@@ -59,22 +59,22 @@ interface StatsCardProps {
           fontSize={'4xl'}
           py={10}
           fontWeight={'bold'}>
-          Our company is expanding, you could be too.
+          Our Organization is expanding, you could be in it too.
         </chakra.h1>
         <SimpleGrid columns={{ base: 1, md: 3 }} spacing={{ base: 5, lg: 8 }}>
           <StatsCard
-            title={'Users'}
-            stat={'5,000'}
+            title={'We Server'}
+            stat={'5,000+ Students'}
             icon={<BsPerson size={'3em'} />}
           />
           <StatsCard
-            title={'Servers'}
-            stat={'1,000'}
+            title={'In'}
+            stat={'4 Different Cities'}
             icon={<FiServer size={'3em'} />}
           />
           <StatsCard
-            title={'Datacenters'}
-            stat={'7'}
+            title={'Who Belongs'}
+            stat={'All over Pakistan'}
             icon={<GoLocation size={'3em'} />}
           />
         </SimpleGrid>

@@ -148,7 +148,7 @@ const testimonials = [
             fontSize={20}
             textTransform={'uppercase'}
             color={'purple.400'}>
-            People love us
+            Student love us
           </chakra.h3>
           <chakra.h1
             py={5}
@@ -156,7 +156,7 @@ const testimonials = [
             fontFamily={'Work Sans'}
             fontWeight={'bold'}
             color={useColorModeValue('gray.700', 'gray.50')}>
-            Youre in good company
+            Youre in good Organizations
           </chakra.h1>
           <chakra.h2
             margin={'auto'}
@@ -166,9 +166,9 @@ const testimonials = [
             color={useColorModeValue('gray.500', 'gray.400')}>
             See why over{' '}
             <chakra.strong color={useColorModeValue('gray.700', 'gray.50')}>
-              150,000+
+              10,000+
             </chakra.strong>{' '}
-            influencers use EEZY to manage their social media content!
+            students recommend PIAIC for there career development!
           </chakra.h2>
         </Box>
         <SimpleGrid
