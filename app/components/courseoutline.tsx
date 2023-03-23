@@ -61,7 +61,7 @@ export default function CourseOutline() {
                             description={
                                 'Smart Contracts and Planet-Scale Web 3.0 Dapps.'
                             }
-                            href={'#'}
+                            href={'/Special/Web3Q4'}
                         />
                     </Flex>
                 </GridItem>
@@ -73,7 +73,7 @@ export default function CourseOutline() {
                             description={
                                 'Planet-Scale Open VR & AR Metaverse Experiences.'
                             }
-                            href={'#'}
+                            href={'/Special/Web3Q5'}
                         />
                     </Flex>
                 </GridItem>
@@ -100,7 +100,7 @@ export default function CourseOutline() {
                             description={
                                 'Planet-Scale Intelligent APIs and Python Programming.'
                             }
-                            href={'#'}
+                            href={'/Special/AIQ4'}
                         />
                     </Flex>
                 </GridItem>
@@ -112,7 +112,7 @@ export default function CourseOutline() {
                             description={
                                 'Deep Learning and MLOps.'
                             }
-                            href={'#'}
+                            href={'/Special/AIQ5'}
                         />
                     </Flex>
                 </GridItem>
@@ -139,7 +139,7 @@ export default function CourseOutline() {
                             description={
                                 'Kubernetes Application Developer (CKAD).'
                             }
-                            href={'#'}
+                            href={'/Special/CloudQ4'}
                         />
                     </Flex>
                 </GridItem>
@@ -151,7 +151,7 @@ export default function CourseOutline() {
                             description={
                                 'Multi-Cloud APIs using CDK for Terraform.'
                             }
-                            href={'#'}
+                            href={'/Special/CloudQ5'}
                         />
                     </Flex>
                 </GridItem>
@@ -178,7 +178,7 @@ export default function CourseOutline() {
                             description={
                                 'Ambient Computing with VA & MPD.'
                             }
-                            href={'#'}
+                            href={'/Special/IOTQ4'}
                         />
                     </Flex>
                 </GridItem>
@@ -190,7 +190,7 @@ export default function CourseOutline() {
                             description={
                                 'Embedded Programming using C and Rust.'
                             }
-                            href={'#'}
+                            href={'/Special/IOTQ5'}
                         />
                     </Flex>
                 </GridItem>
@@ -217,7 +217,7 @@ export default function CourseOutline() {
                             description={
                                 'Python for Biologists.'
                             }
-                            href={'#'}
+                            href={'/Special/GenomicsQ4'}
                         />
                     </Flex>
                 </GridItem>
@@ -229,7 +229,7 @@ export default function CourseOutline() {
                             description={
                                 'Python for Biologists.'
                             }
-                            href={'#'}
+                            href={'/Special/GenomicsQ5'}
                         />
                     </Flex>
                 </GridItem>
@@ -256,7 +256,7 @@ export default function CourseOutline() {
                             description={
                                 'CCNA 200-301 Certification.'
                             }
-                            href={'#'}
+                            href={'/Special/NetworkQ4'}
                         />
                     </Flex>
                 </GridItem>
@@ -268,7 +268,7 @@ export default function CourseOutline() {
                             description={
                                 'Network Programmability and Automation.'
                             }
-                            href={'#'}
+                            href={'/Special/NetworkQ5'}
                         />
                     </Flex>
                 </GridItem>

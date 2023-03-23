@@ -179,7 +179,7 @@ const testimonials = [
           mx={'auto'}>
           {testimonials.map((cardInfo, index) => (
             // eslint-disable-next-line react/jsx-key
-            <TestimonialCard {...cardInfo} index={index} />
+            <TestimonialCard {...cardInfo} key={index} index={index} />
           ))}
         </SimpleGrid>
         <Box>

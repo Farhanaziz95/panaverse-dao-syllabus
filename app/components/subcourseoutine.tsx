@@ -39,7 +39,7 @@ export const Card = ({ heading, description, icon, href }: CardProps) => {
                         {description}
                     </Text>
                 </Box>
-                <Button variant={'link'} colorScheme={'blue'} size={'sm'}>
+                <Button as='a' href={href} variant={'link'} colorScheme={'blue'} size={'sm'}>
                     Learn more
                 </Button>
             </Stack>
@@ -57,7 +57,7 @@ export default function CourseCore() {
                     description={
                         'Object-Oriented Programming using TypeScript.'
                     }
-                    href={'#'}
+                    href={'/CoreCourse/Q1'}
                 />
                 <Card
                     heading={'Quarter II'}
@@ -65,7 +65,7 @@ export default function CourseCore() {
                     description={
                         'Next.js 13 and Cloud Development Kit (CDK).'
                     }
-                    href={'#'}
+                    href={'/CoreCourse/Q2'}
                 />
                 <Card
                     heading={'Quarter III'}
@@ -73,7 +73,7 @@ export default function CourseCore() {
                     description={
                         'Full-Stack Template and API Product Development.'
                     }
-                    href={'#'}
+                    href={'/CoreCourse/Q3'}
                 />
             </SimpleGrid>
         </Box>
