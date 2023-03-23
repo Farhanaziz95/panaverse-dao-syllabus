@@ -312,67 +312,67 @@ const NAV_ITEMS: Array<NavItem> = [
     children: [
       {
         label: 'Smart Contracts and Web 3.0 Dapps',
-        href: '/Special/Web3/Q4',
+        href: '/Special/Web3Q4',
         spLabel:"Quarter IV: Web 3 and Metaverse"
       },
       {
         label: 'Open Virtual and Augmented Metaverse',
-        href: '/Special/Web3/Q5',
+        href: '/Special/Web3Q5',
         spLabel:"Quarter V: Web 3 and Metaverse"
 
       },
       {
         label: 'Intelligent APIs and Python Programming',
-        href: '/Special/AI/Q4',
+        href: '/Special/AIQ4',
         spLabel:"Quarter IV: Artificial Intelligence (AI) and Deep Learning"
       },
       {
         label: 'Deep Learning and MLOps',
-        href: '/Special/AI/Q5',
+        href: '/Special/AIQ5',
         spLabel:"Quarter V: Artificial Intelligence (AI) and Deep Learning"
 
       },
       {
         label: 'Kubernetes Application Developer',
-        href: '/Special/Cloud/Q4',
+        href: '/Special/CloudQ4',
         spLabel:"Quarter IV: Cloud-Native Computing"
       },
       {
         label: 'Multi-Cloud APIs using CDK',
-        href: '/Special/Cloud/Q5',
+        href: '/Special/CloudQ5',
         spLabel:"Quarter V: Cloud-Native Computing"
 
       },
       {
         label: 'Ambient Computing with VA & MPD',
-        href: '/Special/IOT/Q4',
+        href: '/Special/IOTQ4',
         spLabel:"Quarter IV: Ambient Computing and IoT"
       },
       {
         label: 'Embedded using C and Rust',
-        href: '/Special/IOT/Q5',
+        href: '/Special/IOTQ5',
         spLabel:"Quarter V: Ambient Computing and IoT"
 
       },
       {
         label: 'Python for Biologists',
-        href: '/Special/Genomics/Q4',
+        href: '/Special/GenomicsQ4',
         spLabel:"Quarter IV: Genomics and Bioinformatics"
       },
       {
         label: 'Bioinformatics with Python',
-        href: '/Special/Genomics/Q5',
+        href: '/Special/GenomicsQ5',
         spLabel:"Quarter V: Genomics and Bioinformatics"
 
       },
       {
         label: 'CCNA 200-301 Certification',
-        href: '/Special/Network/Q4',
+        href: '/Special/NetworkQ4',
         spLabel:"Quarter IV: Network Programmability and Automation"
       },
       {
         label: 'Network Programmability and Automation',
-        href: '/Special/Network/Q5',
+        href: '/Special/NetworkQ5',
         spLabel:"Quarter V: Network Programmability and Automation"
 
       },
