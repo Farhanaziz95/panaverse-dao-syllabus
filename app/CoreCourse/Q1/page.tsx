@@ -34,7 +34,7 @@ const data = [
                 label: "Web 3.0 User Guide",
                 link: "https://docs.google.com/presentation/d/1FSbr9aJwO0-fmZHqWy_eHO2N_jwJLmQCy4cG8rd4ctw/edit?usp=sharing",
                 linklabel: "(View Document)",
-                description:"Complete Web 3 Assignments included in the Web 3 User Guide"
+                description: "Complete Web 3 Assignments included in the Web 3 User Guide"
             },
             {
                 label: "Virtual and Augmented  Metaverse User Guide",
@@ -45,7 +45,7 @@ const data = [
                 label: "3D E-commerce",
                 link: "https://emperiavr.com/",
                 linklabel: "(View Document)",
-                description:`First, in our Web 3 and Metaverse program, we are learning to develop Web 1, and Web 2 websites and apps. Later we will learn to develop Web 3 and 3D Commerce templates and experiences. 
+                description: `First, in our Web 3 and Metaverse program, we are learning to develop Web 1, and Web 2 websites and apps. Later we will learn to develop Web 3 and 3D Commerce templates and experiences. 
 \n
                 But we have to start thinking right now. Let's understand what one virtual store builder company is doing the company name is Emperia. 
   
@@ -66,7 +66,7 @@ const data = [
                 ],
             },
         ],
-        
+
     },
     {
         label: "3) Fundamentals of Typescript ",
@@ -91,14 +91,14 @@ const data = [
                     },
                     {
                         label: "C) Intro to Node.js, .mjs files, Modules, NPM, import, export, and using external modules with npm:",
-                        link:"https://docs.google.com/presentation/d/1eOLJTN0FyVAw6lMUvA_XYLORKnudWXyzXsB6sg5oPIs/edit?usp=sharing",
-                        linklabel:'(View Document)',
+                        link: "https://docs.google.com/presentation/d/1eOLJTN0FyVAw6lMUvA_XYLORKnudWXyzXsB6sg5oPIs/edit?usp=sharing",
+                        linklabel: '(View Document)',
                     },
                     {
                         label: "D) How to accept user input in your Node.js JavaScript programs, this will allow us to create interactive Node.js console programs using prompt-sync library. The last example in this presentation shows you how to use prompt-sync library in your Node.js programs:",
-                        link:"https://docs.google.com/presentation/d/1eOLJTN0FyVAw6lMUvA_XYLORKnudWXyzXsB6sg5oPIs/edit?usp=sharing",
-                        linklabel:'(View Document)',
-                        description:'Note: After this point, we will do all our class work and exercises using Node.js in .mjs files. We will also be able to develop interactive Node.js console programs which will greatly help the students to learn.',
+                        link: "https://docs.google.com/presentation/d/1eOLJTN0FyVAw6lMUvA_XYLORKnudWXyzXsB6sg5oPIs/edit?usp=sharing",
+                        linklabel: '(View Document)',
+                        description: 'Note: After this point, we will do all our class work and exercises using Node.js in .mjs files. We will also be able to develop interactive Node.js console programs which will greatly help the students to learn.',
                     },
                     {
                         label: "E) Using Arrays and Objects in Node.js Programs (chapter 3 of JavaScript from Beginner to Professional)",
@@ -117,16 +117,179 @@ const data = [
                     },
                     {
                         label: "J) JavaScript promises, mastering the asynchronous",
-                        link:"https://www.codingame.com/playgrounds/347/javascript-promises-mastering-the-asynchronous/what-is-asynchronous-in-javascript",
-                        linklabel:'Visit Website',
+                        link: "https://www.codingame.com/playgrounds/347/javascript-promises-mastering-the-asynchronous/what-is-asynchronous-in-javascript",
+                        linklabel: 'Visit Website',
                     },
                     {
                         label: "K) New JavaScript Features in ECMAScript 2022 and 2021",
-                        link:"https://dev.to/brayanarrieta/new-javascript-features-ecmascript-2022-with-examples-4nhg",
-                        linklabel:'Visit Website',
+                        link: "https://dev.to/brayanarrieta/new-javascript-features-ecmascript-2022-with-examples-4nhg",
+                        linklabel: 'Visit Website',
                     },
                 ],
             },
+        ],
+    },
+    {
+        label: "Object-Oriented Programming with TypeScript",
+        secondlist: [
+            {
+                label: "Chapters 1-11 of Learning TypeScript: Enhance Your Web Development Skills Using Type-Safe JavaScript",
+                link: 'https://www.amazon.com/Learning-TypeScript-Development-Type-Safe-JavaScript/dp/1098110331/ref=sr_1_1',
+                linklabel: '(Visit Website)',
+            },
+            {
+                label: "Learning Repository",
+                link: 'https://github.com/panaverse/learn-typescript',
+                linklabel: '(Visit Github)',
+            },
+            {
+                label: "In Class Companion projects and articles for Learning TypeScript",
+                link: 'https://www.learningtypescript.com/',
+                linklabel: '(Visit Website)',
+            },
+            {
+                label: "Homework Project",
+                link: 'https://github.com/panaverse/typescript-node-projects',
+                linklabel: '(Visit Github)',
+            },
+            {
+                label: "Fundamentals of TypeScript Quiz",
+            },
+            {
+                label: "TypeScript Professional Proficiency Quiz",
+            },
+        ],
+    },
+    {
+        label: "TypeScript for React",
+        secondlist: [
+            {
+                label: "Minimal TypeScript Crash Course For React With Interactive Code Exercises",
+                link: "https://profy.dev/article/react-typescript",
+                linklabel: "(Visit Website)",
+            },
+        ],
+    },
+
+    {
+        label: "TypeScript for React",
+        secondlist: [
+            {
+                label: "Quarter Break Assignments and Quizzes ",
+                secondlist: [
+                    {
+                        label: "",
+                        link: "https://github.com/panaverse/learn-nextjs/tree/main/assignment00_cloud_to_edge ",
+                        linklabel: "https://github.com/panaverse/learn-nextjs/tree/main/assignment00_cloud_to_edge ",
+                    },
+                    {
+                        label: "",
+                        link: "https://github.com/panaverse/learn-nextjs/tree/main/assignment01_todo_app",
+                        linklabel: "https://github.com/panaverse/learn-nextjs/tree/main/assignment01_todo_app",
+                    },
+                    {
+                        label: "",
+                        link: "https://github.com/panaverse/styling-nextjs-projects/tree/main/project00_pricing_ui",
+                        linklabel: "https://github.com/panaverse/styling-nextjs-projects/tree/main/project00_pricing_ui",
+                    },
+                    {
+                        label: "Build a Panaverse DAO Syllabus Website using Next.js 13 given the content from the following document: ",
+                        link: "https://docs.google.com/document/d/13Z4tMKQmZpMEsOc1Y_qAXbOstRolGIFupHxQFgAFl98/edit?usp=sharing",
+                        linklabel: "(View Document)",
+                        description: "The best-developed Website will be hosted on www.panaverse.co domain.",
+                    },
+                    {
+                        label: "Build a new PIAIC Website using Next.js 13 given the content from the current PIAIC Website and from the following document: ",
+                        link: "https://docs.google.com/document/d/13Z4tMKQmZpMEsOc1Y_qAXbOstRolGIFupHxQFgAFl98/edit?usp=sharing",
+                        linklabel: "(View Document)",
+                        description: "The best-developed Website will be hosted on www.piaic.org domain.",
+                    },
+                ]
+            },
+            {
+                label: "After completing the above Five Assignments everyone will appear in the following two Quizzes covering Github and TypeScript:",
+                secondlist: [
+                    {
+                        label: "1) Fundamentals of Version Control with Git Quiz",
+                        secondlist: [
+                            {
+                                label: "Version Control using Git and GitHub By Sir Zeeshan Hanif (Watch Recorded Videos)",
+                                link: "https://www.youtube.com/playlist?list=PLKueo-cldy_HjRnPUL4G3pWHS7FREAizF",
+                                linklabel: "(Watch Here)"
+                            },
+                            {
+                                label: "Chapters 1, 2, 3, and 4 Learn Version Control with Git: A step-by-step course for the complete beginner by Tobias Günther ",
+                            },
+                            {
+                                label: "We will also cover these readings:",
+                                secondlist:[
+                                    {
+                                        label:"",
+                                        link:"https://help.github.com/articles/markdown-basics/",
+                                        linklabel:"https://help.github.com/articles/markdown-basics/",
+                                    },
+                                    {
+                                        label:"",
+                                        link:"http://stackoverflow.com/questions/5009600/difference-between-fork-and-branch-on-github",
+                                        linklabel:"http://stackoverflow.com/questions/5009600/difference-between-fork-and-branch-on-github",
+                                    },
+                                    {
+                                        label:"",
+                                        link:"http://stackoverflow.com/questions/3329943/git-branch-fork-fetch-merge-rebase-and-clone-what-are-the-differences",
+                                        linklabel:"http://stackoverflow.com/questions/3329943/git-branch-fork-fetch-merge-rebase-and-clone-what-are-the-differences",
+                                    },
+                                    {
+                                        label:"",
+                                        link:"https://git-scm.com/book/en/v2/Git-Branching-Rebasing",
+                                        linklabel:"https://git-scm.com/book/en/v2/Git-Branching-Rebasing",
+                                    },
+                                    {
+                                        label:"",
+                                        link:"http://git-scm.com/book/en/v2/Git-Branching-Remote-Branches#Tracking-Branches",
+                                        linklabel:"http://git-scm.com/book/en/v2/Git-Branching-Remote-Branches#Tracking-Branches",
+                                    },
+                                ],
+                            },
+                            {
+                                label: "For practice:",
+                                link: "https://try.github.io/levels/1/challenges/1",
+                                linklabel: "https://try.github.io/levels/1/challenges/1"
+                            },
+                            {
+                                label: "Homework:",
+                                link: "https://www.datacamp.com/courses/introduction-to-git-for-data-science",
+                                linklabel: "https://www.datacamp.com/courses/introduction-to-git-for-data-science"
+                            },
+                            {
+                                label: "Git Cheatsheet",
+                                link: "https://www.kdnuggets.com/2022/11/git-data-science-cheatsheet.html",
+                                linklabel: "https://www.kdnuggets.com/2022/11/git-data-science-cheatsheet.html"
+                            },
+                            {
+                                label: "Git Quiz",
+                                secondlist:[
+                                    {
+                                        label:"Total Questions:60 , Total Time: 75 minutes",
+                                    },
+                                ],
+                            },
+                        ],
+
+                    },
+                    {
+                        label:"2. TypeScript Proficiency Quiz",
+                        secondlist:[
+                            {
+                                label:"Study Material: ",
+                                link:"https://github.com/panaverse/learn-typescript ",
+                                linklabel:"https://github.com/panaverse/learn-typescript"
+                            }
+                        ],
+                        description:"Total Question:63 , Total Time: 120 minutes"
+                    }
+                ]
+            }
+
         ],
     },
 ];
@@ -237,18 +400,7 @@ const HeroCourse = () => {
                                 >
                                     CS-101: Object-Oriented Programming using TypeScript{" "}
                                 </chakra.span>
-                                <chakra.span
-                                    display={{
-                                        base: "block",
-                                        xl: "inline",
-                                    }}
-                                    color="brand.600"
-                                    _dark={{
-                                        color: "brand.400",
-                                    }}
-                                >
-                                    online business
-                  </chakra.span>
+
                             </chakra.h1>
                             <chakra.p
                                 mt={{
