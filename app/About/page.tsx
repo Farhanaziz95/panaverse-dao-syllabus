@@ -11,8 +11,9 @@ import TopFooter from '../components/footer'
 export default function About() {
     return (
         <>
-            <Box bg={useColorModeValue('#f3f4f4', 'gray.700')}>
                 <Header />
+
+            <Box bg={useColorModeValue('#f3f4f4', 'gray.700')}>
                 <TopAbout />
                 <FactStatistics />
                 <TestimonialStudent />

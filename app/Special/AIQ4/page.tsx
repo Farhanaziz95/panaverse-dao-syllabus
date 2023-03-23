@@ -59,8 +59,9 @@ const data = [
 export default function Q1() {
     return (
         <>
-            <Box bg={useColorModeValue('#f3f4f4', 'gray.700')}>
                 <Header />
+
+            <Box bg={useColorModeValue('#f3f4f4', 'gray.700')}>
                 <HeroCourse />
                 <MultiTierList data={data} />
                 <TopFooter />

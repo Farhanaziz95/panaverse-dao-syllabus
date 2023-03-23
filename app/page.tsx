@@ -18,8 +18,9 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <>
-    <Box bg={useColorModeValue('#f3f4f4','gray.700')}>
     <Header />
+
+    <Box bg={useColorModeValue('#f3f4f4','gray.700')}>
     <Hero/>
     <FactStatistics/>
     <CourseOutline/>
