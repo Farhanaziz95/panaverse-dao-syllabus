@@ -34,8 +34,8 @@ export const Card = ({ heading, description, icon, href }: CardProps) => {
                     {icon}
                 </Flex>
                 <Box mt={2}>
-                    <Heading size="md">{heading}</Heading>
-                    <Text mt={1} fontSize={'sm'}>
+                    <Heading color={useColorModeValue('black','white')} size="md">{heading}</Heading>
+                    <Text color={useColorModeValue('black','white')} mt={1} fontSize={'sm'}>
                         {description}
                     </Text>
                 </Box>

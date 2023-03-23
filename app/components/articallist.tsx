@@ -29,7 +29,9 @@ export default function ArticalList() {
                 Top High-Paying Jobs in the Metaverse Industry
 
                 </Heading>
-                <Text color={'gray.600'} fontSize={{ base: 'sm', sm: 'lg' }}>
+                <Text _dark={{
+                                color: "white",
+                            }} color={'gray.600'} fontSize={{ base: 'sm', sm: 'lg' }}>
                 Explore the top high-paying jobs in the emerging metaverse industry, including blockchain developers, web3 developers, NFT specialists, game developers, and virtual architects. Discover the required skills, salaries, and scope of these careers in the evolving metaverse industry.
                 </Text>
             </Stack>
@@ -119,11 +121,12 @@ Facebook on October 28 announced that it has changed its company name to Meta.
                         <Link
                             color="brand.600"
                             _dark={{
-                                color: "brand.400",
+                                color: "blue.400",
                             }}
                             _hover={{
                                 textDecor: "underline",
                             }}
+                            
                             href="https://content.techgig.com/hiring/top-5-metaverse-jobs-that-will-rule-the-future-of-tech-industry/articleshow/87581325.cms"
                         >
                             Read more
@@ -240,7 +243,7 @@ Facebook on October 28 announced that it has changed its company name to Meta.
                         <Link
                             color="brand.600"
                             _dark={{
-                                color: "brand.400",
+                                color: "blue.400",
                             }}
                             _hover={{
                                 textDecor: "underline",
@@ -361,7 +364,7 @@ Facebook on October 28 announced that it has changed its company name to Meta.
                         <Link
                             color="brand.600"
                             _dark={{
-                                color: "brand.400",
+                                color: "blue.400",
                             }}
                             _hover={{
                                 textDecor: "underline",
@@ -482,7 +485,7 @@ Facebook on October 28 announced that it has changed its company name to Meta.
                         <Link
                             color="brand.600"
                             _dark={{
-                                color: "brand.400",
+                                color: "blue.400",
                             }}
                             _hover={{
                                 textDecor: "underline",
@@ -603,7 +606,7 @@ Facebook on October 28 announced that it has changed its company name to Meta.
                         <Link
                             color="brand.600"
                             _dark={{
-                                color: "brand.400",
+                                color: "blue.400",
                             }}
                             _hover={{
                                 textDecor: "underline",

@@ -107,10 +107,11 @@ const testimonials = [
             fontFamily={'Inter'}
             fontWeight={'medium'}
             fontSize={'15px'}
-            pb={4}>
+            pb={4}
+            color={useColorModeValue('black','white')}>
             {content}
           </chakra.p>
-          <chakra.p fontFamily={'Work Sans'} fontWeight={'bold'} fontSize={14}>
+          <chakra.p  color={useColorModeValue('black','white')} fontFamily={'Work Sans'} fontWeight={'bold'} fontSize={14}>
             {name}
             <chakra.span
               fontFamily={'Inter'}
@@ -140,7 +141,8 @@ const testimonials = [
         justifyContent={'center'}
         direction={'column'}
         width={'full'}
-        overflow={'hidden'}>
+        overflow={'hidden'}
+        bg={useColorModeValue('#f3f4f4','gray.700')}>
         <Box width={{ base: 'full', sm: 'lg', lg: 'xl' }} margin={'auto'}>
           <chakra.h3
             fontFamily={'Work Sans'}

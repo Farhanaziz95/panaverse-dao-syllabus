@@ -13,241 +13,241 @@ const data = [
         label: "1) Introduction to the Internet of Things and Embedded Systems",
         link: "https://docs.google.com/presentation/d/14OcW4HfS2i1Db1uKOU6SrckFEFjhSLMgfnHYB3XlEZo/edit?usp=shar",
         linklabel: "(View document)",
-        secondlist:[
+        secondlist: [
             {
-                label:"What is the Fourth Industrial Revolution? "
+                label: "What is the Fourth Industrial Revolution? "
             },
             {
-                label:"What is IoT? "
+                label: "What is IoT? "
             },
             {
-                label:"Embedded Systems"
+                label: "Embedded Systems"
             },
             {
-                label:"Hardware and Software for IoT "
+                label: "Hardware and Software for IoT "
             },
             {
-                label:"Edge and Cloud Computing "
+                label: "Edge and Cloud Computing "
             },
             {
-                label:"The future of IoT is AI"
+                label: "The future of IoT is AI"
             },
             {
-                label:"Blockchain in the Internet of Things? "
+                label: "Blockchain in the Internet of Things? "
             },
             {
-                label:"IoT + AI + Blockchain: The Fourth Industrial Revolution has begun"
+                label: "IoT + AI + Blockchain: The Fourth Industrial Revolution has begun"
             },
             {
-                label:"How will Matter change the IoT Infrastructure and address issues"
+                label: "How will Matter change the IoT Infrastructure and address issues"
             },
             {
-                label:"Metaverse and IoT"
+                label: "Metaverse and IoT"
             }
         ],
-        description:`Mid-Term I: Introduction to the Internet of Things (IoT) Quiz in Week 3 
+        description: `Mid-Term I: Introduction to the Internet of Things (IoT) Quiz in Week 3 
         Total Questions: 46, Total Time: 60 minutes 
         `
 
     },
     {
-        label:`2) The C Reference Book: The C programming language
+        label: `2) The C Reference Book: The C programming language
         Embedded Programming book: Internet of things with ESP8266
         `,
-        link:'https://drive.google.com/drive/folders/1CZFxLSFoo9rl3le7KRuhUwLEV6h4xLXN?usp=sharing',
-        linklabel:"(View Document)"
+        link: 'https://drive.google.com/drive/folders/1CZFxLSFoo9rl3le7KRuhUwLEV6h4xLXN?usp=sharing',
+        linklabel: "(View Document)"
     },
     {
-        label:"3) Introduction to C Part 1",
-        secondlist:[
+        label: "3) Introduction to C Part 1",
+        secondlist: [
             {
-                label:`C environment Setup for (Windows, Linux, and Mac OS systems)
+                label: `C environment Setup for (Windows, Linux, and Mac OS systems)
                 Chapters 1-2 of  “The C programming language”`,
-                secondlist:[
+                secondlist: [
                     {
-                        label:"Variable names types",
+                        label: "Variable names types",
                     },
                     {
-                        label:"Data types and sizes",
+                        label: "Data types and sizes",
                     },
                     {
-                        label:"Constants",
+                        label: "Constants",
                     },
                     {
-                        label:"Arithmetic operations",
+                        label: "Arithmetic operations",
                     },
                     {
-                        label:"Logical and relational operators",
+                        label: "Logical and relational operators",
                     },
                     {
-                        label:"Type conversions.",
+                        label: "Type conversions.",
                     },
                     {
-                        label:"Bitwise operators",
+                        label: "Bitwise operators",
                     },
                     {
-                        label:"Conditional expressions",
+                        label: "Conditional expressions",
                     },
                 ],
-                description:"Programming Assignments will also be given.",
+                description: "Programming Assignments will also be given.",
             }
         ]
     },
     {
-        label:"4) C Programming Part 2",
-        secondlist:[
+        label: "4) C Programming Part 2",
+        secondlist: [
             {
-                label:`Topics 3 and 4  of  “The C programming language”`,
-                secondlist:[
+                label: `Topics 3 and 4  of  “The C programming language”`,
+                secondlist: [
                     {
-                        label:"Control flow statements (else if, loops, switch, break continue)",
+                        label: "Control flow statements (else if, loops, switch, break continue)",
                     },
                     {
-                        label:"Function and Program structure(Returning and non-returning, scope rules, Recursion)",
+                        label: "Function and Program structure(Returning and non-returning, scope rules, Recursion)",
                     },
-                    
+
                 ],
-                description:"Programming Assignments will also be given.",
+                description: "Programming Assignments will also be given.",
             }
         ]
     },
     {
-        label:"5) Introduction to Embedded systems Part 1",
-        secondlist:[
+        label: "5) Introduction to Embedded systems Part 1",
+        secondlist: [
             {
-                label:`Basic Electronics and Introduction to microcontrollers
+                label: `Basic Electronics and Introduction to microcontrollers
                 Chapter 1 of  “Internet of things with ESP8266”`,
-                secondlist:[
+                secondlist: [
                     {
-                        label:"Arduino IDE installation and env setup for ESP8266",
+                        label: "Arduino IDE installation and env setup for ESP8266",
                     },
                     {
-                        label:"Burning your first code on ESP8266",
+                        label: "Burning your first code on ESP8266",
                     },
-                    
+
                 ],
-                description:"Project-based Assignments will also be given. ",
+                description: "Project-based Assignments will also be given. ",
             }
         ],
-        description:`Mid-Term II: C Programming Quiz 1 in Week 9 
+        description: `Mid-Term II: C Programming Quiz 1 in Week 9 
         Total Questions: 62, Total Time: 75 minutes
         `,
     },
     {
-        label:"6) Introduction to Embedded systems Part 2",
-        secondlist:[
+        label: "6) Introduction to Embedded systems Part 2",
+        secondlist: [
             {
-                label:`Chapters 2-5 of  “Internet of things with ESP8266”`,
-                secondlist:[
+                label: `Chapters 2-5 of  “Internet of things with ESP8266”`,
+                secondlist: [
                     {
-                        label:"Connecting your hardware to wifi.",
+                        label: "Connecting your hardware to wifi.",
                     },
                     {
-                        label:"",
-                        link:"https://randomnerdtutorials.com/wifimanager-with-esp8266-autoconnect-custom-parameter-and-manage-your-ssid-and-password/",
-                        linklabel:"https://randomnerdtutorials.com/wifimanager-with-esp8266-autoconnect-custom-parameter-and-manage-your-ssid-and-password/",
+                        label: "",
+                        link: "https://randomnerdtutorials.com/wifimanager-with-esp8266-autoconnect-custom-parameter-and-manage-your-ssid-and-password/",
+                        linklabel: "https://randomnerdtutorials.com/wifimanager-with-esp8266-autoconnect-custom-parameter-and-manage-your-ssid-and-password/",
                     },
                     {
-                        label:"Reading data from GPIOs.",
+                        label: "Reading data from GPIOs.",
                     },
                     {
-                        label:"",
-                        link:"https://randomnerdtutorials.com/esp8266-nodemcu-digital-inputs-outputs-arduino/#:~:text=ESP8266%20NodeMCU%20Read%20Digital%20Inputs,number",
-                        linklabel:"https://randomnerdtutorials.com/esp8266-nodemcu-digital-inputs-outputs-arduino/#:~:text=ESP8266%20NodeMCU%20Read%20Digital%20Inputs,number",
+                        label: "",
+                        link: "https://randomnerdtutorials.com/esp8266-nodemcu-digital-inputs-outputs-arduino/#:~:text=ESP8266%20NodeMCU%20Read%20Digital%20Inputs,number",
+                        linklabel: "https://randomnerdtutorials.com/esp8266-nodemcu-digital-inputs-outputs-arduino/#:~:text=ESP8266%20NodeMCU%20Read%20Digital%20Inputs,number",
                     },
                     {
-                        label:"Controlling LEDs.",
+                        label: "Controlling LEDs.",
                     },
                     {
-                        label:"Reading data from digital sensors. ",
+                        label: "Reading data from digital sensors. ",
                     },
                     {
-                        label:"",
-                        link:"https://randomnerdtutorials.com/esp32-dht11-dht22-temperature-humidity-sensor-arduino-ide/",
-                        linklabel:"https://randomnerdtutorials.com/esp32-dht11-dht22-temperature-humidity-sensor-arduino-ide/",
+                        label: "",
+                        link: "https://randomnerdtutorials.com/esp32-dht11-dht22-temperature-humidity-sensor-arduino-ide/",
+                        linklabel: "https://randomnerdtutorials.com/esp32-dht11-dht22-temperature-humidity-sensor-arduino-ide/",
                     },
                     {
-                        label:"Cloud data logging.",
+                        label: "Cloud data logging.",
                     },
                     {
-                        label:"",
-                        link:"https://tttapa.github.io/ESP8266/Chap16%20-%20Data%20Logging.html",
-                        linklabel:"https://tttapa.github.io/ESP8266/Chap16%20-%20Data%20Logging.html",
+                        label: "",
+                        link: "https://tttapa.github.io/ESP8266/Chap16%20-%20Data%20Logging.html",
+                        linklabel: "https://tttapa.github.io/ESP8266/Chap16%20-%20Data%20Logging.html",
                     },
                     {
-                        label:"",
-                        link:"https://circuitdigest.com/microcontroller-projects/nodemcu-datalogger-to-save-temperature-and-pressure-data-on-thinger-io-cloud-platform",
-                        linklabel:"https://circuitdigest.com/microcontroller-projects/nodemcu-datalogger-to-save-temperature-and-pressure-data-on-thinger-io-cloud-platform",
+                        label: "",
+                        link: "https://circuitdigest.com/microcontroller-projects/nodemcu-datalogger-to-save-temperature-and-pressure-data-on-thinger-io-cloud-platform",
+                        linklabel: "https://circuitdigest.com/microcontroller-projects/nodemcu-datalogger-to-save-temperature-and-pressure-data-on-thinger-io-cloud-platform",
                     },
                     {
-                        label:"",
-                        link:"https://iotdesignpro.com/projects/nodemcu-data-logger-to-upload-data-on-webserver",
-                        linklabel:"https://iotdesignpro.com/projects/nodemcu-data-logger-to-upload-data-on-webserver",
+                        label: "",
+                        link: "https://iotdesignpro.com/projects/nodemcu-data-logger-to-upload-data-on-webserver",
+                        linklabel: "https://iotdesignpro.com/projects/nodemcu-data-logger-to-upload-data-on-webserver",
                     },
                     {
-                        label:"Displaying data on the cloud. ",
+                        label: "Displaying data on the cloud. ",
                     },
                     {
-                        label:"",
-                        link:"https://github.com/adesolasamuel/NodeMCU-DHT-Data-to-Arduino-IoT-Cloud",
-                        linklabel:"https://github.com/adesolasamuel/NodeMCU-DHT-Data-to-Arduino-IoT-Cloud",
+                        label: "",
+                        link: "https://github.com/adesolasamuel/NodeMCU-DHT-Data-to-Arduino-IoT-Cloud",
+                        linklabel: "https://github.com/adesolasamuel/NodeMCU-DHT-Data-to-Arduino-IoT-Cloud",
                     },
                     {
-                        label:"Controlling controller remotely",
+                        label: "Controlling controller remotely",
                     },
                     {
-                        label:"",
-                        link:"https://www.instructables.com/Control-ESP8266-Over-the-Internet-from-Anywhere/",
-                        linklabel:"https://www.instructables.com/Control-ESP8266-Over-the-Internet-from-Anywhere/",
+                        label: "",
+                        link: "https://www.instructables.com/Control-ESP8266-Over-the-Internet-from-Anywhere/",
+                        linklabel: "https://www.instructables.com/Control-ESP8266-Over-the-Internet-from-Anywhere/",
                     },
                     {
-                        label:"Controlling a lamp anywhere in the world. ",
+                        label: "Controlling a lamp anywhere in the world. ",
                     },
                     {
-                        label:"Interacting with different web services. ",
+                        label: "Interacting with different web services. ",
                     },
-                    
+
                 ],
-                description:"Programming Assignments will also be given.",
+                description: "Programming Assignments will also be given.",
             }
         ]
     },
     {
-        label:`7) Embedded Programming using Rust (Extra Weeks in the Course)
+        label: `7) Embedded Programming using Rust (Extra Weeks in the Course)
         `,
-        secondlist:[
+        secondlist: [
             {
-                link:"https://www.rust-lang.org/what/embedded",
-                linklabel:"https://www.rust-lang.org/what/embedded",
-                label:"",
+                link: "https://www.rust-lang.org/what/embedded",
+                linklabel: "https://www.rust-lang.org/what/embedded",
+                label: "",
             },
             {
-                link:"https://crates.io/crates/esp8266",
-                linklabel:"https://crates.io/crates/esp8266",
-                label:"",
+                link: "https://crates.io/crates/esp8266",
+                linklabel: "https://crates.io/crates/esp8266",
+                label: "",
             }
         ],
     },
     {
-        label:`Hardware Requirements: 
+        label: `Hardware Requirements: 
         `,
-        secondlist:[
+        secondlist: [
             {
-                label:"Esp8266 (Node MCU)",
+                label: "Esp8266 (Node MCU)",
             },
             {
-                label:"Jumper Wires",
+                label: "Jumper Wires",
             },
             {
-                label:"Bread Board",
+                label: "Bread Board",
             },
             {
-                label:"LEDs",
+                label: "LEDs",
             },
             {
-                label:"Sensors: (Dht11, ultrasonic sensor, IR sensor)",
+                label: "Sensors: (Dht11, ultrasonic sensor, IR sensor)",
             }
-            
+
         ],
     },
 
@@ -261,10 +261,12 @@ const data = [
 export default function Q1() {
     return (
         <>
-            <Header />
-            <HeroCourse />
-            <MultiTierList data={data} />
-            <TopFooter />
+            <Box bg={useColorModeValue('#f3f4f4', 'gray.700')}>
+                <Header />
+                <HeroCourse />
+                <MultiTierList data={data} />
+                <TopFooter />
+            </Box>
         </>
     )
 }

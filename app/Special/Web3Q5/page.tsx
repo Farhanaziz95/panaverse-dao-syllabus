@@ -16,7 +16,7 @@ const data = [
                 link: "https://github.com/panaverse/metaverse-web",
                 linklabel: "(View GitHub)"
             },
-            
+
         ],
     },
     {
@@ -56,57 +56,59 @@ const data = [
                 label: "Assignment 1:",
                 link: "https://www.youtube.com/playlist?list=PLjEaoINr3zgFX8ZsChQVQsuDSjEqdWMAD",
                 linklabel: "(Watch Here)",
-                description:"Build a 3D Donut using Blender 3 as shown in these video tutorials"
+                description: "Build a 3D Donut using Blender 3 as shown in these video tutorials"
             },
             {
                 label: "Assignment 2:",
                 link: "https://www.packtpub.com/product/blender-3d-by-example-second-edition/9781789612561",
                 linklabel: "(Visit Website)",
-                description:"Build a Viking Scene using Blender 3 as shown in chapter 2 of the Book [Blender by Example 2nd Edition] "
+                description: "Build a Viking Scene using Blender 3 as shown in chapter 2 of the Book [Blender by Example 2nd Edition] "
             },
             {
                 label: "Assignment 3:",
                 link: "https://www.packtpub.com/product/blender-3d-by-example-second-edition/9781789612561",
                 linklabel: "(Visit Website)",
-                description:"Modeling a Time Machine using Blender 3 as shown in chapters 3 and 4 of the Book Blender by Example 2nd Edition"
+                description: "Modeling a Time Machine using Blender 3 as shown in chapters 3 and 4 of the Book Blender by Example 2nd Edition"
             },
             {
                 label: "Assignment 4:",
                 link: "https://www.packtpub.com/product/blender-3d-by-example-second-edition/9781789612561",
                 linklabel: "(Visit Website)",
-                description:"Build a Modern Kitchen using Blender 3 as shown in chapters 5, 6, and 7 of the Book Blender by Example 2nd Edition"
+                description: "Build a Modern Kitchen using Blender 3 as shown in chapters 5, 6, and 7 of the Book Blender by Example 2nd Edition"
             },
             {
                 label: "Assignment 5:",
                 link: "https://www.packtpub.com/product/blender-3d-by-example-second-edition/9781789612561",
                 linklabel: "(Visit Website)",
-                description:"Illustrating an Alien Hero with Grease Pencil as shown in chapter 8 of the Book Blender by Example 2nd Edition"
+                description: "Illustrating an Alien Hero with Grease Pencil as shown in chapter 8 of the Book Blender by Example 2nd Edition"
             },
             {
                 label: "Assignment 6:",
                 link: "https://www.youtube.com/watch?v=bpvh-9H8S1g",
                 linklabel: "(Watch Here)",
-                description:"Build a 3D Sword in the Stone using Blender 3 as shown in these video tutorials "
+                description: "Build a 3D Sword in the Stone using Blender 3 as shown in these video tutorials "
             },
 
         ],
-        description:"Blender development is being funded by heavyweights in the real-time 3D (RT3D) space such as Apple, Unity, AMD, Intel, Meta, NVIDIA, AWS, Epic Games, Adobe, Microsoft, and Decentraland. It is expected to become the standard asset creation tool for metaverse."
+        description: "Blender development is being funded by heavyweights in the real-time 3D (RT3D) space such as Apple, Unity, AMD, Intel, Meta, NVIDIA, AWS, Epic Games, Adobe, Microsoft, and Decentraland. It is expected to become the standard asset creation tool for metaverse."
 
     },
-    
-    
 
-    
+
+
+
 ];
 
 
 export default function Q1() {
     return (
         <>
-            <Header />
-            <HeroCourse />
-            <MultiTierList data={data} />
-            <TopFooter />
+            <Box bg={useColorModeValue('#f3f4f4', 'gray.700')}>
+                <Header />
+                <HeroCourse />
+                <MultiTierList data={data} />
+                <TopFooter />
+            </Box>
         </>
     )
 }
@@ -227,7 +229,7 @@ const HeroCourse = () => {
                                 color="gray.500"
 
                             >
-                               The Web is the Metaverse. The metaverse requires an infrastructure that connects all of the metaverses so that we can travel between them. This is only achievable with open web-based metaverses. The internet and its browsers are magical. Federated but linked experiences connect pages, people, technology, businesses, standards, and nations. It's unlike anything else. The metaverse should replicate the best qualities of the web - it should just be the web. We just have to extend online responsive design from mobile to desktop to 3D, Augmented Reality, and Virtual Reality. This course will teach you how to build the Open Social Spatial Web with WebXR and WebGPU technologies.
+                                The Web is the Metaverse. The metaverse requires an infrastructure that connects all of the metaverses so that we can travel between them. This is only achievable with open web-based metaverses. The internet and its browsers are magical. Federated but linked experiences connect pages, people, technology, businesses, standards, and nations. It's unlike anything else. The metaverse should replicate the best qualities of the web - it should just be the web. We just have to extend online responsive design from mobile to desktop to 3D, Augmented Reality, and Virtual Reality. This course will teach you how to build the Open Social Spatial Web with WebXR and WebGPU technologies.
                 </chakra.p>
 
                         </Box>

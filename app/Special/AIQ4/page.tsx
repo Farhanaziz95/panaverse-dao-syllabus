@@ -16,9 +16,9 @@ const data = [
                 link: "https://www.coursera.org/learn/ai-for-everyone",
                 linklabel: "(View Website)"
             },
-            
+
         ],
-        description:"Quiz in Week 3 Total Questions: 60, Total Time: 75 minutes",
+        description: "Quiz in Week 3 Total Questions: 60, Total Time: 75 minutes",
     },
     {
         label: "2) Building Next-Gen Intelligent Apps with OpenAI’s Powerful Models We will cover GPT-4, ChatGPT, etc. and Next.js 13",
@@ -33,10 +33,10 @@ const data = [
                 link: "https://towardsdatascience.com/gpt-4-is-coming-soon-heres-what-we-know-about-it-64db058cfd45",
                 linklabel: "https://towardsdatascience.com/gpt-4-is-coming-soon-heres-what-we-know-about-it-64db058cfd45"
             },
-            
+
 
         ],
-        
+
     },
     {
         label: "3) Python Crash Course  for TypeScript Developers",
@@ -46,23 +46,25 @@ const data = [
                 link: "https://www.amazon.com/Python-Crash-Course-2nd-Edition/dp/1593279280/ref=sr_1_5",
                 linklabel: "(View Website)"
             },
-            
+
         ],
     },
-    
-    
 
-    
+
+
+
 ];
 
 
 export default function Q1() {
     return (
         <>
-            <Header />
-            <HeroCourse />
-            <MultiTierList data={data} />
-            <TopFooter />
+            <Box bg={useColorModeValue('#f3f4f4', 'gray.700')}>
+                <Header />
+                <HeroCourse />
+                <MultiTierList data={data} />
+                <TopFooter />
+            </Box>
         </>
     )
 }
@@ -183,7 +185,7 @@ const HeroCourse = () => {
                                 color="gray.500"
 
                             >
-                               We'll conclude the course by learning about basic programming concepts using Python, such as lists, dictionaries, classes, functions, and loops, and practice writing clean and readable code with exercises for each topic. We'll also learn how to make your programs interactive and how to test your code safely before adding it to a project. It is a fast-paced, thorough introduction to programming with Python 3.10+ that will have you writing programs, solving problems, and making things that work in no time. In this quarter we will also learn Git, the distributed version control system. We will also review Git-based GitHub services.
+                                We'll conclude the course by learning about basic programming concepts using Python, such as lists, dictionaries, classes, functions, and loops, and practice writing clean and readable code with exercises for each topic. We'll also learn how to make your programs interactive and how to test your code safely before adding it to a project. It is a fast-paced, thorough introduction to programming with Python 3.10+ that will have you writing programs, solving problems, and making things that work in no time. In this quarter we will also learn Git, the distributed version control system. We will also review Git-based GitHub services.
                 </chakra.p>
 
                         </Box>

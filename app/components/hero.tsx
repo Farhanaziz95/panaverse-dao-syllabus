@@ -33,6 +33,7 @@ export default function Hero() {
                         fontWeight={600}
                         fontSize={{ base: '3xl', sm: '4xl', lg: '6xl' }}>
                         <Text
+                            color={useColorModeValue('black','white')}
                             as={'span'}
                             position={'relative'}
                             _after={{
@@ -52,7 +53,7 @@ export default function Hero() {
                             the Next Generation of the Internet
                         </Text>
                     </Heading>
-                    <Text color={'gray.500'}>
+                    <Text color={useColorModeValue('black','white')}>
                         Certified Web 3.0 and Metaverse Developer
                         A One and Quarter Years Panaverse DAO Earn as you Learn Program
                         Consolidating Web 3.0, Metaverse, Artificial Intelligence (AI), Cloud, Edge, Ambient Computing/IoT, Network Automation, and Bioinformatics Technologies
@@ -63,22 +64,24 @@ export default function Hero() {
                         spacing={{ base: 4, sm: 6 }}
                         direction={{ base: 'column', sm: 'row' }}>
                         <NextLink href='https://portal.piaic.org/signup' passHref>
-                            <Button as='a'
+                            <Button
                                 rounded={'full'}
                                 size={'lg'}
                                 fontWeight={'normal'}
                                 px={6}
                                 colorScheme={'red'}
+                                color={useColorModeValue('black','white')}
                                 bg={'red.400'}
                                 _hover={{ bg: 'red.500' }}>
                                 Get started
                             </Button>
                         </NextLink>
                         <NextLink href='https://www.piaic.org/howitworks' passHref>
-                            <Button as='a'
+                            <Button
                                 rounded={'full'}
                                 size={'lg'}
                                 fontWeight={'normal'}
+                                color={useColorModeValue('black','white')}
                                 px={6}
                                 leftIcon={<PlayIcon h={4} w={4} color={'gray.300'} />}>
                                 How It Works

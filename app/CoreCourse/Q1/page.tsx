@@ -222,31 +222,31 @@ const data = [
                             },
                             {
                                 label: "We will also cover these readings:",
-                                secondlist:[
+                                secondlist: [
                                     {
-                                        label:"",
-                                        link:"https://help.github.com/articles/markdown-basics/",
-                                        linklabel:"https://help.github.com/articles/markdown-basics/",
+                                        label: "",
+                                        link: "https://help.github.com/articles/markdown-basics/",
+                                        linklabel: "https://help.github.com/articles/markdown-basics/",
                                     },
                                     {
-                                        label:"",
-                                        link:"http://stackoverflow.com/questions/5009600/difference-between-fork-and-branch-on-github",
-                                        linklabel:"http://stackoverflow.com/questions/5009600/difference-between-fork-and-branch-on-github",
+                                        label: "",
+                                        link: "http://stackoverflow.com/questions/5009600/difference-between-fork-and-branch-on-github",
+                                        linklabel: "http://stackoverflow.com/questions/5009600/difference-between-fork-and-branch-on-github",
                                     },
                                     {
-                                        label:"",
-                                        link:"http://stackoverflow.com/questions/3329943/git-branch-fork-fetch-merge-rebase-and-clone-what-are-the-differences",
-                                        linklabel:"http://stackoverflow.com/questions/3329943/git-branch-fork-fetch-merge-rebase-and-clone-what-are-the-differences",
+                                        label: "",
+                                        link: "http://stackoverflow.com/questions/3329943/git-branch-fork-fetch-merge-rebase-and-clone-what-are-the-differences",
+                                        linklabel: "http://stackoverflow.com/questions/3329943/git-branch-fork-fetch-merge-rebase-and-clone-what-are-the-differences",
                                     },
                                     {
-                                        label:"",
-                                        link:"https://git-scm.com/book/en/v2/Git-Branching-Rebasing",
-                                        linklabel:"https://git-scm.com/book/en/v2/Git-Branching-Rebasing",
+                                        label: "",
+                                        link: "https://git-scm.com/book/en/v2/Git-Branching-Rebasing",
+                                        linklabel: "https://git-scm.com/book/en/v2/Git-Branching-Rebasing",
                                     },
                                     {
-                                        label:"",
-                                        link:"http://git-scm.com/book/en/v2/Git-Branching-Remote-Branches#Tracking-Branches",
-                                        linklabel:"http://git-scm.com/book/en/v2/Git-Branching-Remote-Branches#Tracking-Branches",
+                                        label: "",
+                                        link: "http://git-scm.com/book/en/v2/Git-Branching-Remote-Branches#Tracking-Branches",
+                                        linklabel: "http://git-scm.com/book/en/v2/Git-Branching-Remote-Branches#Tracking-Branches",
                                     },
                                 ],
                             },
@@ -267,9 +267,9 @@ const data = [
                             },
                             {
                                 label: "Git Quiz",
-                                secondlist:[
+                                secondlist: [
                                     {
-                                        label:"Total Questions:60 , Total Time: 75 minutes",
+                                        label: "Total Questions:60 , Total Time: 75 minutes",
                                     },
                                 ],
                             },
@@ -277,15 +277,15 @@ const data = [
 
                     },
                     {
-                        label:"2. TypeScript Proficiency Quiz",
-                        secondlist:[
+                        label: "2. TypeScript Proficiency Quiz",
+                        secondlist: [
                             {
-                                label:"Study Material: ",
-                                link:"https://github.com/panaverse/learn-typescript ",
-                                linklabel:"https://github.com/panaverse/learn-typescript"
+                                label: "Study Material: ",
+                                link: "https://github.com/panaverse/learn-typescript ",
+                                linklabel: "https://github.com/panaverse/learn-typescript"
                             }
                         ],
-                        description:"Total Question:63 , Total Time: 120 minutes"
+                        description: "Total Question:63 , Total Time: 120 minutes"
                     }
                 ]
             }
@@ -298,10 +298,12 @@ const data = [
 export default function Q1() {
     return (
         <>
-            <Header />
-            <HeroCourse />
-            <MultiTierList data={data} />
-            <TopFooter />
+            <Box bg={useColorModeValue('#f3f4f4', 'gray.700')}>
+                <Header />
+                <HeroCourse />
+                <MultiTierList data={data} />
+                <TopFooter />
+            </Box>
         </>
     )
 }

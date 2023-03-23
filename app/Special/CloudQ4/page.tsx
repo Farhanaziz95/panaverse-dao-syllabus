@@ -18,20 +18,22 @@ const data = [
         link: "https://cdk8s.io/",
         linklabel: "(View Website)"
     },
-    
-    
 
-    
+
+
+
 ];
 
 
 export default function Q1() {
     return (
         <>
-            <Header />
-            <HeroCourse />
-            <MultiTierList data={data} />
-            <TopFooter />
+            <Box bg={useColorModeValue('#f3f4f4', 'gray.700')}>
+                <Header />
+                <HeroCourse />
+                <MultiTierList data={data} />
+                <TopFooter />
+            </Box>
         </>
     )
 }
@@ -152,7 +154,7 @@ const HeroCourse = () => {
                                 color="gray.500"
 
                             >
-                               Cloud-native architecture and technologies are an approach to designing, constructing, and operating workloads that are built in the cloud and take full advantage of the cloud computing model. Cloud-native technologies empower organizations to build and run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds. Containers, service meshes, microservices, immutable infrastructure, and declarative APIs exemplify this approach.
+                                Cloud-native architecture and technologies are an approach to designing, constructing, and operating workloads that are built in the cloud and take full advantage of the cloud computing model. Cloud-native technologies empower organizations to build and run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds. Containers, service meshes, microservices, immutable infrastructure, and declarative APIs exemplify this approach.
                 </chakra.p>
 
                         </Box>

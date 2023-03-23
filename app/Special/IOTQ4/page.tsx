@@ -9,25 +9,25 @@ import TopFooter from '../../components/footer'
 
 const data = [
     {
-        label:"Alexa Skill Developement",
-        secondlist:[
+        label: "Alexa Skill Developement",
+        secondlist: [
             {
-                label:"",
+                label: "",
                 link: "https://developer.amazon.com/en-US/alexa",
                 linklabel: "https://developer.amazon.com/en-US/alexa"
             }
         ]
     },
     {
-        label:"Alexa with Matter Protocol",
-        secondlist:[
+        label: "Alexa with Matter Protocol",
+        secondlist: [
             {
-                label:"",
+                label: "",
                 link: "https://developer.amazon.com/en-US/alexa/matter",
                 linklabel: "https://developer.amazon.com/en-US/alexa/matter"
             },
             {
-                label:"",
+                label: "",
                 link: "https://developer.amazon.com/en-US/blogs/alexa/device-makers/2022/07/alexa-live-2022-ack-sdk-matter.html",
                 linklabel: "https://developer.amazon.com/en-US/blogs/alexa/device-makers/2022/07/alexa-live-2022-ack-sdk-matter.html"
             }
@@ -44,10 +44,12 @@ const data = [
 export default function Q1() {
     return (
         <>
-            <Header />
-            <HeroCourse />
-            <MultiTierList data={data} />
-            <TopFooter />
+            <Box bg={useColorModeValue('#f3f4f4', 'gray.700')}>
+                <Header />
+                <HeroCourse />
+                <MultiTierList data={data} />
+                <TopFooter />
+            </Box>
         </>
     )
 }

@@ -33,10 +33,10 @@ interface StatsCardProps {
         rounded={'lg'}>
         <Flex justifyContent={'space-between'}>
           <Box pl={{ base: 2, md: 4 }}>
-            <StatLabel fontWeight={'medium'} isTruncated>
+            <StatLabel color={useColorModeValue('black','white')} fontWeight={'medium'} isTruncated>
               {title}
             </StatLabel>
-            <StatNumber fontSize={'2xl'} fontWeight={'medium'}>
+            <StatNumber color={useColorModeValue('black','white')} fontSize={'2xl'} fontWeight={'medium'}>
               {stat}
             </StatNumber>
           </Box>
@@ -58,7 +58,8 @@ interface StatsCardProps {
           textAlign={'center'}
           fontSize={'4xl'}
           py={10}
-          fontWeight={'bold'}>
+          fontWeight={'bold'}
+          color={useColorModeValue('black','white')}>
           Our Organization is expanding, you could be in it too.
         </chakra.h1>
         <SimpleGrid columns={{ base: 1, md: 3 }} spacing={{ base: 5, lg: 8 }}>

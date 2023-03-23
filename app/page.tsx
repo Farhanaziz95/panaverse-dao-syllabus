@@ -1,3 +1,7 @@
+'use client'
+
+import {Box, useColorModeValue} from '@chakra-ui/react'
+
 import BottomFooter  from './components/footer'
 import CourseOutline  from './components/courseoutline'
 import FactStatistics  from './components/factstudent'
@@ -14,12 +18,14 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <>
+    <Box bg={useColorModeValue('#f3f4f4','gray.700')}>
     <Header />
     <Hero/>
     <FactStatistics/>
     <CourseOutline/>
     <TestimonialStudent/>
     <TopFooter />
+    </Box>
     </>
   )
 }
